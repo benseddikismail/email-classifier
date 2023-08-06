@@ -17,5 +17,5 @@ The model's accuracy is slightly above 70% which is not that bad, but it's not t
 - Include more email attributes (features) to train the model (not merely the email sender and the subject)
 - The original idea of the project is a browser extension to classify emails:
     - Emails classified into categories using a web driver (e.g., Selenium web driver)
-    - User specifies their own email categories and determines the time range of the emails to be classified (if not all emails)
-    - Model trained using each user's emails 
+    - User specifies their own email categories (from an assortment) and determines the time range of the emails to be classified (if not all emails)
+    - Train the model using more general/common emails belonging to different classes
